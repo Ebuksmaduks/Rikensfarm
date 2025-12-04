@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Basic page info -->
+  <meta charset="utf-8">                                     <!-- Sets character encoding -->
+  <meta name="viewport" content="width=device-width,initial-scale=1"> <!-- Responsive on mobile -->
+  <title>Rikens Farm — Poultry & Crop Farming</title>        <!-- Browser tab title -->
+  <meta name="description" content="Rikens Farm — free-range eggs, healthy crops, farm tours, and produce delivery.">
+
+  <!-- Link external CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- =======================
+       SITE WRAPPER / HEADER
+       ======================= -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <!-- Logo / Brand -->
+      <a class="brand" href="#home" aria-label="Rikens Farm home">
+        <div class="logo-mark" aria-hidden="true">
+          <img src="picture/rikenslogo.png" alt="Rikens Farm Logo">
+        </div>
+        <div class="brand-text">
+          <strong>Rikens Farm</strong>
+          <span class="tagline">Poultry • Crops • Sustainable</span>
+        </div>
+      </a>
+
+      <!-- Primary nav -->
+      <nav class="primary-nav" aria-label="Main navigation">
+        <button class="menu-btn" aria-expanded="false" aria-controls="nav-list">☰</button>
+        <ul id="nav-list" class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#video">Video</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a class="cta" href="#contact">Order / Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ================
+       HERO (VIDEO)
+       ================ -->
+  <section id="home" class="hero">
+    <!-- Decorative background video — placeholder public MP4 -->
+    <video class="hero-video" autoplay muted loop>
+      <source src="video/herovideo.mp4" type="video/mp4">
+      <!-- Fallback poster image if video won't load -->
+      Your browser does not support the background video.
+    </video>
+
+    <!-- Hero content -->
+    <div class="container hero-content">
+      <h1>Fresh from our fields to your table</h1>
+      <p class="hero-lead">Free-range eggs, healthy crops, farm tours and sustainable practices — proudly serving our community.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#products">Shop Products</a>
+        <a class="btn btn-outline" href="#about">Learn More</a>
+      </div>
+
+      <!-- Quick stats -->
+      <ul class="hero-stats">
+        <li><strong>500+</strong><span>Eggs/day</span></li>
+        <li><strong>30+</strong><span>Crop Varieties</span></li>
+        <li><strong>100%</strong><span>Free-range</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ==============
+       ABOUT
+       ============== -->
+  <section id="about" class="about container">
+    <div class="about-grid">
+
+      <div class="about-text">
+        <h2>About Rikens Farm</h2>
+        <p>Rikens Farm is a thriving organic farm located in Rivers State, Nigeria. Our core operations are in livestock production including: poultry; catfish; goat; and snails. We also cultivate a variety of crops including: yam; plantain; sweet potatoes; pepper; and some fruits, vegetables and grains.
+
+          This diversity of our farm ecosystem allows us to produce our own animal feeds and manure for plants, ensuring the highest quality nutrition, hygiene and soil fertility for our livestocks and crops.
+          
+          We are committed to only eco friendly agriculture, and achieve this through sustainable farming practices such as using recyclable materials at our poultry farm, and adhering to organic farming and less cruel pests and weed control farm practices.
+          
+          At Rikens Farm, we love what we do, and it is our passion for purely organic produce and animal welfare that leverages our contributions to Nigeria’s food security - one family, one protein source, one crop, and one fruit and veg at a time, and that’s the Rikens Farm way.</p>
+
+          <h3>Our Practices</h3>
+
+          <ul class="list">
+            <li>
+              <strong>Integrated Organic Farming:</strong>
+              We operate a fully organic system where livestock and crop production support each other. 
+              Our animals provide manure for soil fertility, while our crops supply natural feed ingredients.
+            </li>
+        
+            <li>
+              <strong>Eco-Friendly Livestock Management:</strong>
+              Our poultry, catfish, goats, and snails are raised in clean, humane and low-stress environments,
+              using recyclable materials and sustainable housing designs.
+            </li>
+        
+            <li>
+              <strong>Sustainable Crop Cultivation:</strong>
+              We grow yam, plantain, sweet potatoes, pepper, vegetables, fruits and grains using 
+              organic fertilizers, natural pest control, and chemical-free farming methods.
+            </li>
+        
+            <li>
+              <strong>Natural Soil Enrichment:</strong>
+              We produce our own organic compost and manure to boost soil structure, nutrition and long-term fertility.
+            </li>
+        
+            <li>
+              <strong>Environmental Protection:</strong>
+              Our practices reduce waste, avoid harmful chemicals, and support soil and water conservation for a greener ecosystem.
+            </li>
+        
+            <li>
+              <strong>Contribution to Food Security:</strong>
+              Our passion for fresh, organic produce and animal welfare drives our mission to support Nigeria’s food security—
+              one family, one protein source, one fruit and one vegetable at a time.
+            </li>
+          </ul>
+          <br>
+
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#gallery">See the farm</a>
+          <a class="btn btn-primary" href="#contact">Book a tour</a>
+        </div>
+      </div>
+      
+      <div class="about-media">
+        <img src="picture\53days after planting.jpg" alt="Rikens Farm field">
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============
+       PRODUCTS
+       ============== -->
+  <section id="products" class="products container">
+    <h2>Our Products</h2>
+    <p class="muted">Available for pickup and delivery.</p>
+
+    <div class="product-grid">
+      <!-- Product card (repeat) -->
+      <article class="product-card">
+        <img src="picture/eggs.jpeg" alt="Free range eggs">
+        <div class="product-body">
+          <h3>Free-range Eggs</h3>
+          <p class="muted">Fresh daily, produced by free-range hens on pasture.</p>
+          <div class="product-meta">
+            <span class="price">₦1,800</span>
+            <div class="product-actions">
+              <button class="btn-small" onclick="alert('Call +234 800 000 0000 or use contact form to order')">Order</button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="picture/catfish.jpeg" alt="Catfish">
+        <div class="product-body">
+          <h3>Catfish</h3>
+          <p class="muted">Clean, naturally raised catfish, perfect for every home meal.</p>
+          <div class="product-meta">
+            <span class="price">₦2,500</span>
+            <div class="product-actions"><button class="btn-small" onclick="alert('Delivery areas: call +234 800 000 0000')">Order</button></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="picture/day old chick.jpg" alt="Day-old chicks">
+        <div class="product-body">
+          <h3>Day-old Chicks</h3>
+          <p class="muted">Healthy starter chicks for smallholders and farms.</p>
+          <div class="product-meta">
+            <span class="price">₦700 / chick</span>
+            <div class="product-actions"><button class="btn-small" onclick="alert('Limited stock — contact us')">Inquire</button></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="picture/maize.jpeg" alt="Maize">
+        <div class="product-body">
+          <h3>Bulk Maize (per 25kg)</h3>
+          <p class="muted">Staple grain grown with soil-friendly practices.</p>
+          <div class="product-meta">
+            <span class="price">₦14,000</span>
+            <div class="product-actions"><button class="btn-small" onclick="alert('Send order request via contact form')">Order</button></div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ==============
+       GALLERY
+       ============== -->
+  <section id="gallery" class="gallery container">
+    <h2>Gallery</h2>
+    <p class="muted">Click any image to enlarge.</p>
+
+    <!-- Grid of photos (placeholders) -->
+    <div class="gallery-grid">
+      <img src="picture/ridges.jpeg" alt="Chickens" data-large="picture/ridges.jpeg">
+      <img src="picture/HenHousing_960x596-FreeRun.jpg" alt="Vegetables" data-large="picture/HenHousing_960x596-FreeRun.jpg">
+      <img src="picture/cover crop.jpg" alt="Fields" data-large="picture/cover crop.jpg">
+      <img src="picture/A-mulched-maize-farm-949x400.jpg" alt="Tools" data-large="picture/A-mulched-maize-farm-949x400.jpg">
+    </div>
+
+    <!-- Lightbox modal (hidden by default) -->
+    <div id="lightbox" class="lightbox" aria-hidden="true">
+      <button class="lightbox-close" aria-label="Close image">✕</button>
+      <img src="" alt="Expanded photo">
+    </div>
+  </section>
+
+  <!-- ==============
+       VIDEO / TOUR
+       ============== -->
+  <section id="video" class="video-section container">
+    <h2>Farm Tour (Video)</h2>
+    <p class="muted">A short tour of our farm — placeholder video from YouTube (replace with your own).</p>
+
+    <!-- Embedded YouTube (placeholder) -->
+    <div class="video-embed">
+      <iframe width="100%" height="420" src="https://www.youtube.com/embed/aqz-KE-bpKQ" title="Farm tour placeholder"
+              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <!-- ==============
+       TESTIMONIALS & FAQ
+       ============== -->
+  <section class="extras container">
+    <div class="extras-grid">
+      <div class="testimonials">
+        <h3>What customers say</h3>
+        <blockquote>
+          “Best eggs in the area, consistent quality and quick delivery.” - Amina
+        </blockquote>
+        <blockquote>
+          “I buy the veg boxes every week. Fresh and good value.” - Chinedu
+        </blockquote>
+      </div>
+
+      <div class="faq">
+        <h3>Frequently asked questions</h3>
+        <div class="faq-item">
+          <button class="faq-q">Do you deliver? <span class="chev">▾</span></button>
+          <div class="faq-a">Yes, we deliver to nearby towns. Call to confirm availability and fees.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">How are the hens raised? <span class="chev">▾</span></button>
+          <div class="faq-a">Our hens are free-range, with shelter and regular veterinary checks.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============
+       CONTACT
+       ============== -->
+  <section id="contact" class="contact container">
+    <h2>Contact & Orders</h2>
+    <p class="muted">Use this form to send us a message, request a product, or book a tour.</p>
+
+    <div class="contact-grid">
+      <!-- Contact form -->
+      <form id="contact-form" class="contact-form" onsubmit="handleContactSubmit(event)">
+        <label for="name">Full name</label>
+        <input id="name" name="name" type="text" placeholder="Your full name" required>
+
+        <label for="contactInfo">Email or phone</label>
+        <input id="contactInfo" name="contactInfo" type="text" placeholder="you@example.com or +234..." required>
+
+        <label for="orderDetails">Message / Order details</label>
+        <textarea id="orderDetails" name="orderDetails" rows="5" placeholder="What would you like?" required></textarea>
+
+        <label for="pickup">Prefer pickup or delivery?</label>
+        <select id="pickup" name="pickup">
+          <option value="pickup">Pickup</option>
+          <option value="delivery">Delivery</option>
+        </select>
+
+        <button class="btn btn-primary" type="submit">Send message</button>
+        <div id="formResponse" class="form-response" role="status" aria-live="polite"></div>
+      </form>
+
+      <!-- Contact details / map -->
+      <aside class="contact-info">
+        <h3>Visit or call</h3>
+        <p class="muted">Address: Rikens Farm, Elele Alimini, Emohua Local Government Area, Rivers State, Nigeria.</p>
+        <p><strong>Phone:</strong> +234 800 000 0000</p>
+        <p><strong>Email:</strong> <a href="mailto:info@rikensfarm.ng">info@rikensfarm.ng</a></p>
+
+        <!-- Placeholder map (replace with Google Maps iframe when ready) -->
+        <div class="map-placeholder">Map placeholder — add your embed later</div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ==============
+       FOOTER
+       ============== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> Rikens Farm — All rights reserved</div>
+      <div class="socials">
+        <a href="#" aria-label="Facebook">Facebook</a> ·
+        <a href="#" aria-label="Instagram">Instagram</a> ·
+        <a href="#" aria-label="WhatsApp">WhatsApp</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Link JS -->
+  <script src="script.js"></script>
+</body>
+</html>
